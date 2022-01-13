@@ -73,6 +73,12 @@ while True:
 			if currentname != name:
 				currentname = name
 				print(currentname)
+				if currentname == 'Aum':
+					print('1')
+				elif currentname == 'Mike':
+					print('2')
+				else:
+					print('3')
 
 		# update the list of names
 		names.append(name)
